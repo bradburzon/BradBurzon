@@ -17,3 +17,7 @@ A simple description and an image.
 (images are downloaded from [pexels](pexels.com) | the moodboard is from [milanote](milanote.com) )
 ![moodboard](images/web-moodboard.png)
 For the colors, I picked silver, white, and a color close to teal. I like MacBook and the silver color so it will be my primary color. The green will be my font/icons color to add some life and white will be the background just to make it simple. 
+
+### Fonts
+#### Safe Approach
+For now, I have decided it will just be { Arial, Arial, Helvetica, sans-serif }. 
