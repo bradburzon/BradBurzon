@@ -1,2 +1,5 @@
 title: Brad Burzon
 description:  Brad Burzon
+
+sass:
+  sass_dir: _sass
