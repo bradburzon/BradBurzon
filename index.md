@@ -1,7 +1,7 @@
 ---
-title: Brad Burzon
+title: Home
 layout: default
 
 ---
 
-# {{ page.title }}
+# Welcome!
