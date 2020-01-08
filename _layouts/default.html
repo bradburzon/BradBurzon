@@ -2,18 +2,23 @@
 <html lang="en">
 {% include header.html %}
 <body>
-        {% include navigation.html %}
+
   <div class="container">
     <div class="row">
       <div class="col-xl-3">
-    {{ content }}
+        {% include top-header.html %}
       </div>
     <div class="col-xl-9">
       <img class="img-fluid float-right" src="images/intro-img.png">
     </div>
     </div>
   </div>
+  {% include navigation.html %}
+
+
+      <!--CONTENT BELOW -->
   <div class="container">
+        {{ content }}
     <p  style="height:1000px;">hi</div>
   </div>
   {% include footer.html %}
