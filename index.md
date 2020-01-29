@@ -4,4 +4,4 @@ layout: homepage
 
 ---
 
-## soon to have : projects
+[Posts](../posts/)
