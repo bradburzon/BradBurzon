@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "First Post"
+title:  "first post"
 ---
 
-# Welcome
+# welcome
 
 **Hello world**, this is my first Jekyll blog post.
 
 I hope you like it!
+
+
 
 ##### Leave a comment below
 <div id="commento"></div>

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: posts
+title: want to read something?
 permalink: /posts/
 ---
 
-# want to read something?
 
-<ol>
+
+<ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ol>
+</ul>
