@@ -31,5 +31,3 @@ $ git config --global user.email "youremail@email.com"
 ***Important***
 #### Make sure that the email is the same as the one that is used for your GitHub. Otherwise, the commits and other contributions won't show up on your profile.
 ##### Leave a comment below
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
