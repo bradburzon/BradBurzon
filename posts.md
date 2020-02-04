@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: want to read something?
 permalink: /posts/
 ---

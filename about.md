@@ -18,3 +18,4 @@ Because it is interesting. My first project in computer science is my own homepa
 ### how did I make this blog?
 I am using [Jekyll](https://jekyllrb.com/), a static site generator, along with HTML, CSS, and Bootstrap. After checking domains, I discovered it could hosted on [GitHub here](https://github.com/bradburzon/BradBurzon). At first, I was going to code everything from scratch including the styles and design. But I learned from my brother about Jekyll and it is perfect. I am free to customized the design with bootstrap and also forces me to use GitHub.
 I am using Disqus to handle the comments. This wouldn't be a blog without enabling comments. However, there were more options to pick but Disqus is more money friendly since it is free.
+<p>&nbsp;</p>
