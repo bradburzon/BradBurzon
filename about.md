@@ -4,7 +4,7 @@ title: about
 description: Click to learn more about Brad Burzon and the blog using Jekyll and hosted on GitHub.
 permalink: /about/
 ---
-{% include about.html %}
+{% include about-image.html %}
 # about me
 ### hi my name is brad.
 I studied computer science for the last 4 years and have nothing major to show for it so here it is. I want to use the skills I have learned and put it to use as well share what I have learned, what mistakes I did, and what are my current projects.
