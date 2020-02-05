@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="shortcut icon" type="image/png" href="favicon.png">
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-3">
-        {% include top-header.html %}
-      </div>
-    <div class="col-xl-9">
-      <img width="100%" class="img-fluid float-right d-none d-sm-block" src="images/intro-img.png" alt="About Brad Burzon's interest">
-    </div>
-    </div>
-  </div>
-  {% include navigation.html %}
+  <head>
+    {% include header.html %}
+    <!-- custom header links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    {% seo %}
+  </head>
+  <body class="container">
+    <header>
+    {% include top-header.html %}
+    {% include navigation.html %}
+    </header>
 
-      <!--CONTENT BELOW -->
-  <div class="container">
-        <a href="https://bradburzon.com/posts/"> <p align="center"><img class="img-fluid" width="800px" src="images/bulb.jpg" alt="Brad Burzon's blog posts"></p></a>
-        {{ content }}
+    <!--CONTENT BELOW -->
+    <main>
+      <article>
+          {{ content }}
+          <a href="https://bradburzon.com/posts/"> <p align="center"><img class="img-fluid" width="800px" src="images/bulb.jpg" alt="Brad Burzon's blog posts"></p></a>
+      </article>
+    </main>
+    <br >
+    <!--CONTENT ABOVE -->
 
-        <br >
-  </div>
-  {% include footer.html %}
-</body>
+    <footer id="footer-override" class="footer fixed-bottom container">
+      {% include footer.html %}
+    </footer>
+  </body>
 </html>
