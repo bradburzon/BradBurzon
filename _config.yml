@@ -1,3 +1,8 @@
 title: Brad Burzon
 description:  Brad Burzon
 permalink: /:title/
+
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

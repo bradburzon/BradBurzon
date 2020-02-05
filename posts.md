@@ -1,6 +1,7 @@
 ---
 layout: page
-title: want to read something?
+title: blog posts
+description: Here are Brad Burzon's blog posts. Most of these relates to Java, Web development, and other miscellaneous fun stuff. Come have a read if you are bored.
 permalink: /posts/
 ---
 

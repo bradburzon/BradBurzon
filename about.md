@@ -1,6 +1,7 @@
 ---
 layout: page
 title: about
+description: Click to learn more about Brad Burzon and the blog using Jekyll and hosted on GitHub.
 permalink: /about/
 ---
 {% include about.html %}

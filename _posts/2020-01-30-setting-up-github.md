@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "setting up GitHub"
+description: This is setting up GitHub as a beginner. It is easy to follow. Here, we will use git bash to connect as well as in setting up ssh keys to connect with GitHub.
 ---
 Download [git here](https://git-scm.com/downloads).
 
@@ -28,5 +29,5 @@ $ git config --global user.name "Brad Burzon"
 ```bash
 $ git config --global user.email "youremail@email.com"
 ```
-***Important***
-#### Make sure that the email is the same as the one that is used for your GitHub. Otherwise, the commits and other contributions won't show up on your profile.
+***Important!***
+**Make sure that the email is the same as the one that is used for your GitHub. Otherwise, the commits and other contributions won't show up on your profile.**
