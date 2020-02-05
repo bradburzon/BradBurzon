@@ -1,29 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include header.html %}
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+{% include header.html %}
+  <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
-    {% seo %}
-  </head>
-  <body class="container">
-    <header>
-    {% include navigation.html %}
-    </header>
-
-    <!--CONTENT BELOW -->
-    <main>
-      <article>
-        <h1 align="center"> {{ page.title }} </h1>
+<body>
+  {% include navigation.html %}
+      <!--CONTENT BELOW -->
+  <div class="container">
         {{ content }}
-      </article>
-    </main>
-
-    <!--CONTENT ABOVE -->
-    <br >
-    <footer id="footer-override" class="footer fixed-bottom container">
-      {% include footer.html %}
-    </footer>
-  </body>
+        <br >
+  </div>
+  {% include footer.html %}
+</body>
 </html>

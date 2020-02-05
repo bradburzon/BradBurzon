@@ -1,6 +1,0 @@
-:root {
-  --footer-color: #d9e3e3;
-}
-#footer-override{
-  background-color:var(--footer-color);
-}
