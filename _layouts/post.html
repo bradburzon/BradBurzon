@@ -1,32 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include header.html %}
-        <!-- custom header links -->
-    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+{% include header.html %}
+  <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="shortcut icon" type="image/png" href="../../favicon.png">
-    {% seo %}
-  </head>
-  <body class="container">
-    <header>
-    {% include navigation.html %}
-    </header>
-
-    <!--CONTENT BELOW -->
-    <main>
-      <article>
-        <h1 align="center"> {{ page.title }} </h1>
+<body>
+  {% include navigation.html %}
+      <!--CONTENT BELOW -->
+  <div class="container">
+      <p > <h1 align="center"> {{ page.title }} </h1> </p>
         {{ content }}
-      </article>
-    </main>
-    <!--CONTENT ABOVE -->
+     <br >
+       {% include disqus.html %}
+  </div>
 
-    <br >
-    {% include disqus.html %}
-    <br >
-    <footer id="footer-override" class="footer fixed-bottom container">
-      {% include footer.html %}
-    </footer>
-  </body>
+  {% include footer.html %}
+</body>
 </html>
