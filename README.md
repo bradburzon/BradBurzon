@@ -1,4 +1,3 @@
-![website](images/website.JPG)
 # Blogging with Jekyll with Bootstrap
 
 This repository is for my [website](https://bradburzon.com). I am using [Jekyll](https://jekyllrb.com/), a static site generator, and used HTML, CSS, and Bootstrap for design.
