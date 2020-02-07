@@ -38,6 +38,6 @@ bundle exec jekyll serve
 
 ## Acknowledgments
 
-* My brothers
-* FreeCodeCamp.com
-* Haacked.com
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
