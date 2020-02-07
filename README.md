@@ -1,3 +1,4 @@
+![website](images/website.JPG)
 # Blogging with Jekyll with Bootstrap
 
 This repository is for my [website](https://bradburzon.com). I am using [Jekyll](https://jekyllrb.com/), a static site generator, and used HTML, CSS, and Bootstrap for design.
@@ -10,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### Ruby and Jekyll
 Follow [this](https://jekyllrb.com/docs/installation/windows/)
-1) Install Ruby(for [Windows](https://rubyinstaller.org/)
+1) Install Ruby(for [Windows](https://rubyinstaller.org/))
  * then run this to check the version
    ```
    ruby -v
@@ -34,9 +35,3 @@ bundle exec jekyll serve
 
 * [Jekyll](http://https://jekyllrb.com/) - Static Site Generator
 * [Bootstrap](https://maven.apache.org/) - CSS Framework used
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
