@@ -2,6 +2,7 @@
 layout: post
 title:  "setting up GitHub"
 description: This is setting up GitHub as a beginner. It is easy to follow. Here, we will use git bash to connect as well as in setting up ssh keys to connect with GitHub.
+categories: Programming
 ---
 Download [git here](https://git-scm.com/downloads).
 
