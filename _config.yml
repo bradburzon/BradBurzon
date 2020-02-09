@@ -1,6 +1,6 @@
 title: Brad Burzon
 description:  Brad Burzon
-permalink: /:title/
+permalink: /:categories/:title/
 
 
 plugins:
