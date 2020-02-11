@@ -12,12 +12,12 @@ These instructions will get you a copy of the project up and running on your loc
 #### Ruby and Jekyll
 Follow [this](https://jekyllrb.com/docs/installation/windows/)
 1) Install Ruby(for [Windows](https://rubyinstaller.org/))
- * then run this to check the version
+ * then run this to check the version if properly installed
    ```
    ruby -v
    ```
 2) Install Jekyll
- * after ruby isntall, run
+ * after ruby install, run
    ```
    gem install jekyll bundler
    ```
