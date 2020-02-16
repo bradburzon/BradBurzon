@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include header.html %}
+    {% include_cached header.html %}
     <!-- custom header links -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -10,8 +10,8 @@
   </head>
   <body class="container">
     <header>
-    {% include top-header.html %}
-    {% include navigation.html %}
+    {% include_cached top-header.html %}
+    {% include_cached navigation.html %}
     </header>
 
     <!--CONTENT BELOW -->
@@ -25,7 +25,7 @@
     <!--CONTENT ABOVE -->
 
     <footer id="footer-override" class="footer fixed-bottom container">
-      {% include footer.html %}
+      {% include_cached footer.html %}
     </footer>
   </body>
 </html>
