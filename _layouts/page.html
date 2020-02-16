@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include header.html %}
+    {% include_cached header.html %}
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/custom.css">
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
@@ -9,7 +9,7 @@
   </head>
   <body class="container">
     <header>
-    {% include navigation.html %}
+    {% include_cached navigation.html %}
     </header>
 
     <!--CONTENT BELOW -->
@@ -23,7 +23,7 @@
     <!--CONTENT ABOVE -->
     <br >
     <footer id="footer-override" class="footer fixed-bottom container">
-      {% include footer.html %}
+      {% include_cached footer.html %}
     </footer>
   </body>
 </html>
