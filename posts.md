@@ -18,9 +18,9 @@ permalink: /posts/
     </div>
     <div>
       {% if post.image == "" %}
-      <img class="post img-fluid" src="../images/bulb.jpg" alt="light bulb picture">
+      <a href="{{ post.url }}" ><img class="post img-fluid" src="../images/bulb.jpg" alt="light bulb picture"></a>
       {% else %}
-      <img class="post img-fluid" src="{{ post.image }}" alt="light bulb picture">
+      <a href="{{ post.url }}" ><img class="post img-fluid" src="{{ post.image }}" alt="light bulb picture"></a>
       {% endif %}
     </div>
   </div>
