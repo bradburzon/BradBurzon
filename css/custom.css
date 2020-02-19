@@ -1,30 +1,38 @@
 :root {
-  --footer-color: #d9e3e3;
+  --footer-color: #332b28;
+}
+.row-silver{
+  background-color:#dde7e6;
+  margin: 0px;
+  padding: 0px 0px 3em 0px;
+}
+.row-override{
+  margin: 0px ;
+  padding: 0px;
 }
 #footer-override{
   background-color:var(--footer-color);
+  color: white !important;
 }
-@media only screen and (max-width: 770px) {
-  .main{
-    margin-bottom:100px;
-  }
+#footer-override a{
+  color: white;
+  text-decoration: underline;
+  align-self: center;
 }
 .post {
   width: 300px;
   height: 180px;
 }
-
 .item-container{
-margin: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 0px;
 }
-
 .box{
   display: grid;
   grid-template-columns: repeat(auto-fill, 330px);
   width:100%;
   height: 100%;
   justify-content:space-around;
-  background-color: #e3cd81;
+  background-color: #dde7e6;
   padding:10px 0px 20px 0px;
 }
 .main{

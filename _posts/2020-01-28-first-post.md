@@ -3,6 +3,7 @@ layout: post
 title:  "first post"
 categories: Blog
 image: "../images/website.JPG"
+description: ""
 ---
 
 # welcome
