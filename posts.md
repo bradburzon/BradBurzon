@@ -4,13 +4,25 @@ title: blog posts
 description: Here are Brad Burzon's blog posts. Most of these relates to Java, Web development, and other miscellaneous fun stuff. Come have a read if you are bored.
 permalink: /posts/
 ---
+## Want to read something?
 
+## Here are some of my findings and notes while programming.
 
-
-<ul>
-  {% for post in site.posts %}
-    <li>
+<br>
+  [Recent Posts](../posts/)
+<div class="box">
+  {% for post in site.posts limit:3 %}
+  <div class="item-container">
+    <div>
       <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    </div>
+    <div>
+      {% if post.image == "" %}
+      <img class="post img-fluid" src="../images/bulb.jpg" alt="light bulb picture">
+      {% else %}
+      <img class="post img-fluid" src="{{ post.image }}" alt="light bulb picture">
+      {% endif %}
+    </div>
+  </div>
   {% endfor %}
-</ul>
+</div>
