@@ -13,6 +13,7 @@
 #footer-override{
   background-color:var(--footer-color);
   color: white !important;
+    border-radius: 10px 10px 0px 0px ;
 }
 .navbar{
   border-radius: 0px 0px 0px 30px;
