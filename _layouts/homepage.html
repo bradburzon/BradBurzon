@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include_cached header.html %}
-    <!-- custom header links -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    {% seo %}
-  </head>
-  <body class="container">
-    <header>
+<head>
+  {% include_cached header.html %}
+  <!-- custom header links -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  {% seo %}
+</head>
+<body class="container">
+  <header>
     {% include_cached top-header.html %}
     {% include_cached navigation.html %}
-    </header>
-
-    <!--CONTENT BELOW -->
-    <main>
-      <article>
-          {{ content }}
-          <a href="https://bradburzon.com/posts/"> <p align="center"><img class="img-fluid" width="800px" src="images/bulb.jpg" alt="Brad Burzon's blog posts"></p></a>
-      </article>
-    </main>
-    <br >
-    <!--CONTENT ABOVE -->
-
-    <footer id="footer-override" class="footer fixed-bottom container">
-      {% include_cached footer.html %}
-    </footer>
-  </body>
+  </header>
+  <!--CONTENT BELOW -->
+  <main class="main">
+    <article>
+      {{ content }}
+    </article>
+  </main>
+  <!--CONTENT ABOVE -->
+  <br >
+  <footer id="footer-override" class="container footer fixed-bottom ">
+    {% include_cached footer.html %}
+  </footer>
+</body>
 </html>

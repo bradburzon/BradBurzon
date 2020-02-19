@@ -1,6 +1,6 @@
-title: Brad Burzon
-description:  Brad Burzon
-permalink: /:title/
+title: brad burzon
+description:  Welcome to Brad Burzon's website. Come check out Brad Burzon's blog, website design and more!.
+permalink: /:categories/:title/
 
 
 plugins:
