@@ -7,3 +7,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
+
+exclude: [/projects/node_modules, /projects/package-lock.json]
