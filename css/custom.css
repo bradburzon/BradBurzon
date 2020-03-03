@@ -45,3 +45,15 @@
 .main{
   margin-bottom:100px;
 }
+#demo {
+  font-size: 4em;
+}
+.neo-button{
+  font-size: 1.5em;
+  margin: 10px;
+  border-radius: 10px;
+  background-color:white;
+   border: 3px solid rgba(0,0,0,0.0);
+  box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.15),
+               -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
