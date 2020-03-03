@@ -5,7 +5,7 @@ categories: Programming
 image: "../images/tomato.jpg"
 description: "Here, I will talk about my journey making a simple page with Pomodoro timer."
 ---
-If you haven't already seen it, checkout my [Pomodoro Timer here.](/projects/pomodoro/)
+If you haven't already seen it, checkout my [Pomodoro Timer here.](/projects/pomodoro)
 
 The purpose of this app is to be able to utilize the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) which design to set work intervals with rests in between.
 <br >
