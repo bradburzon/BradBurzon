@@ -13,7 +13,7 @@ Here are my projects below. Check them out!
 
   <div class="item-container">
     <div>
-      <a href="#">Pomodoro Timer</a>
+      <a href="/pomodoro/">Pomodoro Timer</a>
     </div>
     <div>
     <img src="../images/tomato.jpg" >
