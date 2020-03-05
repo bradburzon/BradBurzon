@@ -5,6 +5,6 @@ _site/
 .jekyll-metadata
 _drafts/
 projects/node_modules
-projects/package-lock.json
-projects/script.test.js
-projects/package.json
+projects/js/package-lock.json
+projects/js/script.test.js
+projects/js/package.json
