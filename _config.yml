@@ -8,4 +8,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
 
-exclude: [/projects/node_modules, /projects/js/package-lock.json, /projects/js/package.json,  /projects/js/script.test.js ]
+exclude: [/projects/js/node_modules, /projects/js/package-lock.json, /projects/js/package.json,  /projects/js/script.test.js ]
