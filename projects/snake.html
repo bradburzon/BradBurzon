@@ -81,88 +81,23 @@
   <main class="main">
     <article>
       <div class="col">
-        <div >
-          <canvas class="myCanvas" id="game">
-          </canvas>
+        <div id="game">
         </div>
       </div>
     </article>
   </main>
   <!--CONTENT ABOVE -->
-  <script>
-  var doc = document;
-  var game = doc.getElementById("game");
-
-  const canvas = document.querySelector('.myCanvas');
-  const ctx = canvas.getContext('2d');
-
-  canvas.onclick = function() {
-  ctx.fillStyle ="#FF0000";
-  ctx.fillRect(20, 20, 20, 10);
-}
-
-  var width = getWidth(game);
-  var height = getHeight(game);
-
-
-
-
-  var coord = getXandY();
-
-  //activates when window resizes
-  window.onresize = resize;
-  function resize()
-  {
-    width = getWidth(game);
-    height = getHeight(game);
-    // print(width + " x " + height);
-  }
-  function printer(msg, x, y){
-  }
-
-  function getWidth(elem){
-    return getComputedStyle(elem).width;
-  }
-
-  function getHeight(elem){
-    return getComputedStyle(elem).height;
-  }
-
-  //print to the console
-  function print(str){
-    console.log(str);
-    return str;
-  }
-
-  //return x and y mouse coord
-  function getXandY(eve){
-    if(eve != null){
-      var xCoord = eve.clientX;
-      var yCoord = eve.clientY;
-      // testGetXandY(xCoord, yCoord);
-      return {x: xCoord, y: yCoord};
-    }
-  }
-
-  //TESTS
-  function testGetXandY(x, y){
-    if(event != null){
-      return x == event.clientX && y == event.clientY;
-    }
-  }
-
-  </script>
-  <br >
-  <!-- <script src="js/snake.js"></script> -->
-  <footer id="footer-override" class="footer fixed-bottom container">
-    <div class="row">
-      <div  class="col-sm text-center">
-        <a href="https://github.com/bradburzon">GitHub</a>
-      </div>
-      <div  class="col-sm text-center">
-        @ brad burzon 2020
-      </div>
+<br >
+<script src="js/snake.js"></script>
+<footer id="footer-override" class="footer fixed-bottom container">
+  <div class="row">
+    <div  class="col-sm text-center">
+      <a href="https://github.com/bradburzon">GitHub</a>
     </div>
-  </footer>
+    <div  class="col-sm text-center">
+      @ brad burzon 2020
+    </div>
+  </div>
+</footer>
 </body>
 </html>
