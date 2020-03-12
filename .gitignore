@@ -8,3 +8,4 @@ projects/js/node_modules
 projects/js/package-lock.json
 projects/js/script.test.js
 projects/js/package.json
+projects/js/snake.test.js
