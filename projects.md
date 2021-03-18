@@ -22,7 +22,7 @@ Here are my projects below. Check them out!
     <p>Use the pomodoro technique and log your work!</p>
     </div>
   </div>
-
+<!--
   <div class="item-container">
     <div>
       <a href="/projects/snake">Snake Game</a>
@@ -34,5 +34,5 @@ Here are my projects below. Check them out!
     <p>Play the snake game like it's classic.</p>
     </div>
   </div>
-
+-->
 </div>
