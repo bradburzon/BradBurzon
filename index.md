@@ -6,7 +6,7 @@ image: ""
 ---
 # Welcome!
 ## My name is Brad Burzon.
-## I am programmer who very much likes to code and fix bugs.
+## I like solving problems and fixing bugs.
 ## Here, you can read my posts and see my projects.
 
 <br>
