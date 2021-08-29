@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### Ruby and Jekyll
 Follow [this](https://jekyllrb.com/docs/installation/windows/)
-1) Install Ruby(for [Windows](https://rubyinstaller.org/))
+1) Install Ruby(for [Windows](https://rubyinstaller.org/)) (2.2 > version <= 2.8)
  * then run this to check the version if properly installed
    ```
    ruby -v
