@@ -1,0 +1,22 @@
+/* Ensure the sidebar is sticky */
+app-sidebar {
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Initially hide the sidebar */
+  #home h1 {
+    color: #FFFFFF; /* Ensuring the large text is white */
+    font-size: 3em; /* Adjust based on preference */
+  }
+  
+  #home .lead {
+    color: #000000; /* Dark text for contrast against the lighter background */
+    text-align: justify; /* Justified text for the elevator pitch */
+    max-width: 100%; /* Ensure it does not overflow its container */
+    font-size: 1.75em;
+  }
+  
+body , h1, p{
+    font-family: 'Roboto', sans-serif;
+}

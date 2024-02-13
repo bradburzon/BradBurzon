@@ -1,0 +1,68 @@
+<div
+  class="skills-section col-12 col-md-8 my-5 text-center text-md-start mx-auto p-3"
+  style="background-color: rgba(255, 255, 255, 0.75); border-radius: 0.3rem"
+>
+  <h2 class="text-center mb-4">Technical</h2>
+  <div class="skills-container d-flex flex-wrap justify-content-start">
+    <div
+      *ngFor="let skill of skills"
+      class="skill m-2 p-3 border rounded"
+      style="
+        background-color: #283044;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      "
+    >
+     <span>{{ skill.name }}</span> 
+    </div>
+  </div>
+  <hr />
+  <h2 class="text-center mb-4">Web Development</h2>
+  <div class="skills-container d-flex flex-wrap justify-content-start">
+    <div
+      *ngFor="let skill of webDevSkills"
+      class="skill m-2 p-3 border rounded"
+      style="
+        background-color: #283044;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      "
+    >
+      {{ skill.name }}
+    </div>
+  </div>
+  <hr />
+  <h2 class="text-center mb-4">Android Development</h2>
+  <div class="skills-container d-flex flex-wrap justify-content-start">
+    <div
+      *ngFor="let skill of androidDevSkills"
+      class="skill m-2 p-3 border rounded"
+      style="
+        background-color: #283044;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      "
+    >
+      {{ skill.name }}
+    </div>
+  </div>
+  <hr />
+  <h2 class="text-center mb-4">Soft Skills</h2>
+  <div class="kills-container d-flex flex-wrap justify-content-start">
+    <div
+      *ngFor="let skill of softSkills"
+      class="skill m-2 p-3 border rounded"
+      style="
+        background-color: #283044;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      "
+    >
+      {{ skill.name }}
+    </div>
+  </div>
+</div>

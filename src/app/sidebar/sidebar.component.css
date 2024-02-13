@@ -1,0 +1,21 @@
+
+.info, .links, .links-content {
+    text-align: center;
+    width: 100%; /* Ensure full width within the sidebar */
+  }
+  
+  .nav-link, .btn {
+    width: 100%; /* Ensure links and buttons span the full container width */
+    text-align: center;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto; /* Ensure the image is responsive and maintains aspect ratio */
+  }
+
+  body , h2, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+  

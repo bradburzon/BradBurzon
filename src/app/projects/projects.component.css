@@ -1,0 +1,18 @@
+.carousel-item img {
+    object-fit: cover; /* Adjust as needed to maintain aspect ratio */
+    height: 500px; /* Example fixed height for uniformity */
+    width: 100%;
+  }
+  .skill {
+    background-color: #405060;
+    color: white;
+    font-size: 1.5em;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #fff; /* example */
+    border-radius: 0.5rem;
+    width: auto; /* or specific width like 200px */
+    max-width: 100%; /* ensures it doesn't overflow its container */
+    display: inline-block; /* or flex, depending on layout */
+  }
+  
