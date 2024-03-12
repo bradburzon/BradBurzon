@@ -1,22 +1,62 @@
-/* Ensure the sidebar is sticky */
-app-sidebar {
-    position: sticky;
-    top: 0;
+/* General Styles */
+body, h1, p {
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* Dark grey for text for better readability */
+}
+
+.container-fluid {
+  background-color: #FFF; /* White background */
+}
+
+/* Sidebar Styles */
+.sidebar-sticky {
+  background-color: #F5F5F5; /* Light grey for sidebar */
+  color: #000; /* Black text color */
+}
+
+.app-sidebar {
+  position: sticky;
+  top: 0;
+}
+
+/* Home Section Styles */
+#home {
+  background-color: #FFF; /* White background */
+  color: #000; /* Black text color */
+}
+
+#home h1 {
+  color: #000; /* Black for main headings */
+  font-size: 2.5em;
+}
+
+#home .lead {
+  color: #333; /* Dark grey for body text */
+  text-align: justify;
+  font-size: 1.25em;
+  background-color: transparent; /* Removing background color for a cleaner look */
+  padding: 0; /* Adjust padding as needed */
+}
+
+/* Skills and Projects Section */
+#skills, #projects {
+  background-color: #FFF; /* White background for consistency */
+  color: #000; /* Black text color */
+}
+
+/* Footer Section */
+app-footer {
+  background-color: #F5F5F5; /* Light grey for a subtle footer */
+  color: #000; /* Black text color */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .sidebar-sticky {
+      background-color: #FFF; /* White background for mobile */
   }
-  
-  /* Initially hide the sidebar */
-  #home h1 {
-    color: #FFFFFF; /* Ensuring the large text is white */
-    font-size: 3em; /* Adjust based on preference */
+
+  .col-md-9, .col-12 {
+      padding: 20px; /* Adjust padding for mobile */
   }
-  
-  #home .lead {
-    color: #000000; /* Dark text for contrast against the lighter background */
-    text-align: justify; /* Justified text for the elevator pitch */
-    max-width: 100%; /* Ensure it does not overflow its container */
-    font-size: 1.75em;
-  }
-  
-body , h1, p{
-    font-family: 'Roboto', sans-serif;
 }
