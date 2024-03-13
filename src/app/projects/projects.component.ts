@@ -34,25 +34,25 @@ export class ProjectsComponent {
 
   constructor() {
     // Order Flow - Restaurant Ordering System Skills
-    this.projects[0].addSkill(new Skill('TypeScript'));
-    this.projects[0].addSkill(new Skill('Angular'));
-    this.projects[0].addSkill(new Skill('Bootstrap'));
-    this.projects[0].addSkill(new Skill('HTML'));
-    this.projects[0].addSkill(new Skill('CSS'));
-    this.projects[0].addSkill(new Skill('Firebase'));
-    this.projects[0].addSkill(new Skill('GitHub'));
+    this.projects[0].addSkill(new Skill('TypeScript', 1));
+    this.projects[0].addSkill(new Skill('Angular', 1));
+    this.projects[0].addSkill(new Skill('Bootstrap', 1));
+    this.projects[0].addSkill(new Skill('HTML', 1));
+    this.projects[0].addSkill(new Skill('CSS', 1));
+    this.projects[0].addSkill(new Skill('Firebase', 1));
+    this.projects[0].addSkill(new Skill('GitHub', 1));
     this.projects[0].addImageUrl('../assets/OrderFlow2.png');
     this.projects[0].addImageUrl('../assets/OrderFlow3.png');
     this.projects[0].addImageUrl('../assets/Orderflow4.png');
     this.projects[0].addImageUrl('../assets/OrderFlow5.png');
 
     // Cerebro - Cognitive Rehabilitation Games Skills
-    this.projects[1].addSkill(new Skill('Java'));
-    this.projects[1].addSkill(new Skill('Android Studio'));
-    this.projects[1].addSkill(new Skill('XML'));
-    this.projects[1].addSkill(new Skill('Firebase'));
-    this.projects[1].addSkill(new Skill('GitHub'));
-    this.projects[1].addSkill(new Skill('Scrum'));
+    this.projects[1].addSkill(new Skill('Java', 1));
+    this.projects[1].addSkill(new Skill('Android Studio', 1));
+    this.projects[1].addSkill(new Skill('XML', 1));
+    this.projects[1].addSkill(new Skill('Firebase', 1));
+    this.projects[1].addSkill(new Skill('GitHub', 1));
+    this.projects[1].addSkill(new Skill('Scrum', 1));
     this.projects[1].addImageUrl('../assets/Cerebro0.JPG');
     this.projects[1].addImageUrl('../assets/Cerebro-1.JPG');
     this.projects[1].addImageUrl('../assets/Cerebro-2.JPG');
@@ -60,11 +60,11 @@ export class ProjectsComponent {
     this.projects[1].addImageUrl('../assets/Cerebro-4.JPG');
 
     // Career Path Recommendations Engine
-    this.projects[2].addSkill(new Skill('Angular'));
-    this.projects[2].addSkill(new Skill('Adobe XD'));
-    this.projects[2].addSkill(new Skill('Prototyping'));
-    this.projects[2].addSkill(new Skill('Firebase'));
-    this.projects[2].addSkill(new Skill('GitHub'));
+    this.projects[2].addSkill(new Skill('Angular', 1));
+    this.projects[2].addSkill(new Skill('Adobe XD', 1));
+    this.projects[2].addSkill(new Skill('Prototyping', 1));
+    this.projects[2].addSkill(new Skill('Firebase', 1));
+    this.projects[2].addSkill(new Skill('GitHub', 1));
     this.projects[2].addImageUrl('../assets/CP1.JPG');
     this.projects[2].addImageUrl('../assets/CP2.JPG');
     this.projects[2].addImageUrl('../assets/CP3.JPG');

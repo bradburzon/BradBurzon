@@ -1,8 +1,9 @@
 export class Skill {
-    name: string | undefined;
+  name: string | undefined;
+  yearsOfExperience: number;
 
-    constructor(public skillName: string) {
-        this.name = skillName;
-    }
+  constructor(public skillName: string, years: number) {
+    this.name = skillName;
+    this.yearsOfExperience = years;
+  }
 }
-

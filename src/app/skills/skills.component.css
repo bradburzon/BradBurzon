@@ -1,3 +1,46 @@
 h2, span{
     font-family: 'Roboto', sans-serif;
 }
+
+.progress-bar {
+    transition: width 2s ease;
+    color:rgb(255, 255, 255);
+    font-size: medium;
+  }
+  
+  @keyframes growWidth {
+    from {
+      width: 0;
+    }
+    to {
+      width: 5;
+    }
+  }
+  
+  .progress-bar-animate {
+    animation: growWidth 2s ease-out;
+    animation-fill-mode: forwards; /* Keeps the state of the animation at the end */
+  }
+
+  @keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .moving-gradient {
+    /* Define your gradient here */
+    background: linear-gradient(270deg, #02c4ff, #2b2b66, #120a29, #02c4ff);
+    background-size: 200% 200%; /* Make the background larger to allow movement */
+  
+    /* Apply the animation */
+    animation: moveGradient 7s ease infinite;
+  }
+  
+  
