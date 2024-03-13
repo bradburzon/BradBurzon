@@ -1,0 +1,8 @@
+@keyframes fadeInOut {
+    0%, 100% { opacity: .5; }
+    50% { opacity: 1; }
+  }
+
+  .animated-404 {
+    animation: fadeInOut 1s ease infinite;
+  }
