@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container-fluid">
-    <a href="#" class="navbar-brand" style="font-size: 1.5em">
+    <a routerLink="/home" class="navbar-brand" style="font-size: 1.5em">
       <img
         src="favicon.png"
         alt="Brad Burzon"
@@ -22,19 +22,31 @@
     <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-size: 1.5em">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/">home</a>
+          <a
+            class="nav-link"
+            routerLink="/home"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            >home</a
+          >
         </li>
         <li class="nav-item">
           <!-- For navigation to a component or path -->
-          <a class="nav-link" routerLink="skills">skills</a>
+          <a
+            class="nav-link"
+            routerLink="/skills"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            >skills</a
+          >
         </li>
         <li class="nav-item">
           <!-- If you had a Projects component and wanted to navigate to it -->
           <!-- <a class="nav-link" routerLink="/projects">Projects</a> -->
         </li>
       </ul>
-      <ul class="navbar-nav ">
-        <li class="nav-item my-auto" >
+      <ul class="navbar-nav">
+        <li class="nav-item my-auto">
           <a
             class="nav-link"
             href="https://www.linkedin.com/in/brad-burzon"
@@ -58,7 +70,7 @@
             href="../assets/BradMikeBurzon_Resume.pdf"
             target="_blank"
           >
-            <button ><span style="font-size: 1.5em">resume</span></button>
+            <button><span style="font-size: 1.5em">resume</span></button>
           </a>
         </li>
       </ul>
