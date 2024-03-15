@@ -1,16 +1,13 @@
-import {
-  Component,
-  ElementRef,
-  HostListener,
-  OnInit,
-  ViewChild,
-} from '@angular/core';
+import { Component, HostListener } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { FooterComponent } from "../footer/footer.component";
 
 @Component({
-  selector: 'app-splash',
-  standalone: true,
-  templateUrl: './splash.component.html',
-  styleUrls: ['./splash.component.css'],
+    selector: 'app-splash',
+    standalone: true,
+    templateUrl: './splash.component.html',
+    styleUrls: ['./splash.component.css'],
+    imports: [RouterLink, FooterComponent]
 })
 export class SplashComponent {
   name: string = 'Brad Burzon';

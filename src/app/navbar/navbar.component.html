@@ -6,7 +6,7 @@
         alt="Brad Burzon"
         class="nav-icon d-inline-block align-text-top"
       />
-      brad burzon
+      Brad Burzon
     </a>
     <button
       class="navbar-toggler"
@@ -27,7 +27,7 @@
             routerLink=""
             routerLinkActive="active"
             ariaCurrentWhenActive="page"
-            >home</a
+            >Home</a
           >
         </li>
         <li class="nav-item">
@@ -37,12 +37,17 @@
             routerLink="/skills"
             routerLinkActive="active"
             ariaCurrentWhenActive="page"
-            >skills</a
+            >Skills</a
           >
         </li>
         <li class="nav-item">
-          <!-- If you had a Projects component and wanted to navigate to it -->
-          <!-- <a class="nav-link" routerLink="/projects">Projects</a> -->
+          <a
+            class="nav-link"
+            routerLink="/projects"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            >Projects</a
+          >
         </li>
       </ul>
       <ul class="navbar-nav">
@@ -52,7 +57,7 @@
             href="https://www.linkedin.com/in/brad-burzon"
             target="_blank"
           >
-            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-linkedin-in" style="color: #007bff"></i>
           </a>
         </li>
         <li class="nav-item my-auto">
@@ -61,7 +66,7 @@
             href="https://github.com/bradburzon"
             target="_blank"
           >
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github" style="color: #007bff"></i>
           </a>
         </li>
         <li class="nav-item my-auto">
@@ -70,7 +75,12 @@
             href="../assets/BradMikeBurzon_Resume.pdf"
             target="_blank"
           >
-            <button><span style="font-size: 1.5em">resume</span></button>
+            <button
+              class="rounded text-white"
+              style="background-color: #007bff; border: 2px solid #007bff"
+            >
+              <span style="font-size: 1.5em">Resume</span>
+            </button>
           </a>
         </li>
       </ul>

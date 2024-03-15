@@ -1,30 +1,42 @@
 import { Component } from '@angular/core';
-import { Project } from '../model/project.model'; // Assuming your Project class is in a file named project.model.ts
-import { Skill } from '../model/skill.model'; // Ensure Skill class is correctly imported
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { RouterLink } from '@angular/router';
+import { Skill } from '../model/skill.model';
+import { Project } from '../model/project.model';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css'], // Corrected from 'styleUrl' to 'styleUrls'
+  styleUrls: ['./projects.component.css'],
+  imports: [CommonModule, NavbarComponent, RouterLink],
 })
 export class ProjectsComponent {
   projects: Project[] = [
     new Project(
+      '2dolist',
       'Order Flow - Restaurant Ordering System',
       'A web app for restaurants that streamlines communicating orders and ready for pick up between the servers and cooks.',
       'Full-Stack Developer',
-      'Oct 2023 - Current'
+      'Oct 2023 - Feb 2024'
     ),
     new Project(
+      'orderflow',
+      'Order Flow - Restaurant Ordering System',
+      'A web app for restaurants that streamlines communicating orders and ready for pick up between the servers and cooks.',
+      'Full-Stack Developer',
+      'Oct 2023 - Feb 2024'
+    ),
+    new Project(
+      'cerebro',
       'Cerebro - Cognitive Rehabilitation Games',
       'An Android app designed to rehabilitate traumatic brain injury (TBI) patients through research-backed games.',
       'Java Developer',
       'Aug 2022 - May 2023'
     ),
     new Project(
+      'careerpath',
       'Career Path Recommendations Engine',
       'A website that delivers personalized career path suggestions based on user survey data.',
       'Frontend Developer',

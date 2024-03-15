@@ -1,6 +1,7 @@
-import { Skill } from "./skill.model";
+import { Skill } from './skill.model';
 
 export class Project {
+  id: string;
   name: string;
   role: string;
   duration: string;
@@ -9,11 +10,13 @@ export class Project {
   imageUrl: string[] = []; // Initialize as an empty array
 
   constructor(
+    id: string,
     projectName: string,
     desc: string,
     role: string,
     duration: string
   ) {
+    this.id = id;
     this.name = projectName;
     this.role = role;
     this.duration = duration;
@@ -25,7 +28,7 @@ export class Project {
     this.imageUrl.push(url);
   }
 
-  addSkill(skill: Skill){
+  addSkill(skill: Skill) {
     this.skills.push(skill);
   }
 }

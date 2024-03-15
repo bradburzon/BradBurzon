@@ -1,5 +1,5 @@
 .footer-center {
     text-align: center;
-    color: white;
+    color: black;
     font-size: var(--fs-1); /* Adjust this value based on your site's font-size variables */
 }
