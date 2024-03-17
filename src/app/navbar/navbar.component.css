@@ -5,6 +5,10 @@
     padding: 1rem 2rem;
     background-color: #ffffff;
   }
+
+  .active-link{ 
+   color: #007bff;;
+}
   
   .navbar-brand {
     display: flex;
