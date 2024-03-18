@@ -16,10 +16,10 @@ export class ProjectsComponent {
   projects: Project[] = [
     new Project(
       '2dolist',
-      'Order Flow - Restaurant Ordering System',
-      'A web app for restaurants that streamlines communicating orders and ready for pick up between the servers and cooks.',
-      'Full-Stack Developer',
-      'Oct 2023 - Feb 2024'
+      '2DoList - Automated to do list',
+      'A to do list that automates tasks at the end of the day.',
+      'Android Developer',
+      'Feb 2024 - Present'
     ),
     new Project(
       'orderflow',
@@ -46,39 +46,51 @@ export class ProjectsComponent {
 
   constructor() {
     // Order Flow - Restaurant Ordering System Skills
-    this.projects[0].addSkill(new Skill('TypeScript', 1));
-    this.projects[0].addSkill(new Skill('Angular', 1));
-    this.projects[0].addSkill(new Skill('Bootstrap', 1));
-    this.projects[0].addSkill(new Skill('HTML', 1));
-    this.projects[0].addSkill(new Skill('CSS', 1));
-    this.projects[0].addSkill(new Skill('Firebase', 1));
+    this.projects[0].addSkill(new Skill('Java', 1));
+    this.projects[0].addSkill(new Skill('XML', 1));
+    this.projects[0].addSkill(new Skill('Android Studio', 1));
+    this.projects[0].addSkill(new Skill('Gradle', 1));
+    this.projects[0].addSkill(new Skill('IntelliJ', 1));
     this.projects[0].addSkill(new Skill('GitHub', 1));
-    this.projects[0].addImageUrl('../assets/OrderFlow2.png');
-    this.projects[0].addImageUrl('../assets/OrderFlow3.png');
-    this.projects[0].addImageUrl('../assets/Orderflow4.png');
-    this.projects[0].addImageUrl('../assets/OrderFlow5.png');
+    this.projects[0].addImageUrl('../assets/todolist1.jpg');
+    this.projects[0].addImageUrl('../assets/todolist1.jpg');
+    this.projects[0].addImageUrl('../assets/todolist1.jpg');
+    this.projects[0].addImageUrl('../assets/todolist1.jpg');
 
-    // Cerebro - Cognitive Rehabilitation Games Skills
-    this.projects[1].addSkill(new Skill('Java', 1));
-    this.projects[1].addSkill(new Skill('Android Studio', 1));
-    this.projects[1].addSkill(new Skill('XML', 1));
+    // Order Flow - Restaurant Ordering System Skills
+    this.projects[1].addSkill(new Skill('TypeScript', 1));
+    this.projects[1].addSkill(new Skill('Angular', 1));
+    this.projects[1].addSkill(new Skill('Bootstrap', 1));
+    this.projects[1].addSkill(new Skill('HTML', 1));
+    this.projects[1].addSkill(new Skill('CSS', 1));
     this.projects[1].addSkill(new Skill('Firebase', 1));
     this.projects[1].addSkill(new Skill('GitHub', 1));
-    this.projects[1].addSkill(new Skill('Scrum', 1));
-    this.projects[1].addImageUrl('../assets/Cerebro0.JPG');
-    this.projects[1].addImageUrl('../assets/Cerebro-1.JPG');
-    this.projects[1].addImageUrl('../assets/Cerebro-2.JPG');
-    this.projects[1].addImageUrl('../assets/Cerebro-3.JPG');
-    this.projects[1].addImageUrl('../assets/Cerebro-4.JPG');
+    this.projects[1].addImageUrl('../assets/OrderFlow2.png');
+    this.projects[1].addImageUrl('../assets/OrderFlow3.png');
+    this.projects[1].addImageUrl('../assets/Orderflow4.png');
+    this.projects[1].addImageUrl('../assets/OrderFlow5.png');
 
-    // Career Path Recommendations Engine
-    this.projects[2].addSkill(new Skill('Angular', 1));
-    this.projects[2].addSkill(new Skill('Adobe XD', 1));
-    this.projects[2].addSkill(new Skill('Prototyping', 1));
+    // Cerebro - Cognitive Rehabilitation Games Skills
+    this.projects[2].addSkill(new Skill('Java', 1));
+    this.projects[2].addSkill(new Skill('Android Studio', 1));
+    this.projects[2].addSkill(new Skill('XML', 1));
     this.projects[2].addSkill(new Skill('Firebase', 1));
     this.projects[2].addSkill(new Skill('GitHub', 1));
-    this.projects[2].addImageUrl('../assets/CP1.JPG');
-    this.projects[2].addImageUrl('../assets/CP2.JPG');
-    this.projects[2].addImageUrl('../assets/CP3.JPG');
+    this.projects[2].addSkill(new Skill('Scrum', 1));
+    this.projects[2].addImageUrl('../assets/Cerebro0.JPG');
+    this.projects[2].addImageUrl('../assets/Cerebro-1.JPG');
+    this.projects[2].addImageUrl('../assets/Cerebro-2.JPG');
+    this.projects[2].addImageUrl('../assets/Cerebro-3.JPG');
+    this.projects[2].addImageUrl('../assets/Cerebro-4.JPG');
+
+    // Career Path Recommendations Engine
+    this.projects[3].addSkill(new Skill('Angular', 1));
+    this.projects[3].addSkill(new Skill('Adobe XD', 1));
+    this.projects[3].addSkill(new Skill('Prototyping', 1));
+    this.projects[3].addSkill(new Skill('Firebase', 1));
+    this.projects[3].addSkill(new Skill('GitHub', 1));
+    this.projects[3].addImageUrl('../assets/CP1.JPG');
+    this.projects[3].addImageUrl('../assets/CP2.JPG');
+    this.projects[3].addImageUrl('../assets/CP3.JPG');
   }
 }

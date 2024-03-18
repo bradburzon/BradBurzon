@@ -50,4 +50,27 @@
     font-size: 1.5rem;
   }
   
+  /* Style for the active link */
+.active-link {
+  font-weight: bold;
+  color: #007bff; /* Adjust the color to match your theme */
+}
+
+/* Custom dropdown menu styles */
+.navbar .dropdown-menu {
+  border-radius: 0.5rem;
+  padding: 0;
+}
+
+.navbar .dropdown-item {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.navbar .dropdown-item:hover, .navbar .dropdown-item:focus {
+  background-color: #419af3;
+  padding: 5px 0px;
+  text-align: center; /* Light grey background on hover/focus */
+}
+
   

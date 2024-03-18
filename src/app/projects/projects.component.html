@@ -1,4 +1,3 @@
-<app-navbar></app-navbar>
 <div class="row">
   <div class="col-12 main-content">
     <div
@@ -63,10 +62,11 @@
               >
                 <img
                   [src]="imageUrl"
-                  class="d-block w-100 img-fluid"
+                  class="d-block img-fluid mx-auto"
                   alt="Project image"
                   data-bs-toggle="modal"
                   [attr.data-bs-target]="'#modal' + i + '-' + k"
+                  style="height: 500px"
                 />
               </div>
             </div>
@@ -80,7 +80,9 @@
                 class="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span class="visually-hidden" style="color: #000000"
+                >Previous</span
+              >
             </button>
             <button
               class="carousel-control-next"
@@ -91,8 +93,13 @@
               <span
                 class="carousel-control-next-icon"
                 aria-hidden="true"
+                style="color: #000000"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span
+                class="visually-hidden"
+                style="color: #000000; background-color: black"
+                >Next</span
+              >
             </button>
           </div>
           <!-- Modal for each image -->
