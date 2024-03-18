@@ -5,14 +5,14 @@ export class Project {
   name: string;
   role: string;
   duration: string;
-  description: string;
+  descriptions: string[];
   skills: Skill[] = [];
-  imageUrl: string[] = []; // Initialize as an empty array
+  imageUrl: string[] = [];
 
   constructor(
     id: string,
     projectName: string,
-    desc: string,
+    descs: string[],
     role: string,
     duration: string
   ) {
@@ -20,10 +20,9 @@ export class Project {
     this.name = projectName;
     this.role = role;
     this.duration = duration;
-    this.description = desc;
+    this.descriptions = descs;
   }
 
-  // Method to add an image URL to the array
   addImageUrl(url: string) {
     this.imageUrl.push(url);
   }
