@@ -53,9 +53,9 @@ export class ProjectsComponent {
     this.projects[0].addSkill(new Skill('IntelliJ', 1));
     this.projects[0].addSkill(new Skill('GitHub', 1));
     this.projects[0].addImageUrl('../assets/todolist1.jpg');
-    this.projects[0].addImageUrl('../assets/todolist1.jpg');
-    this.projects[0].addImageUrl('../assets/todolist1.jpg');
-    this.projects[0].addImageUrl('../assets/todolist1.jpg');
+    this.projects[0].addImageUrl('../assets/todolist2.jpg');
+    this.projects[0].addImageUrl('../assets/todolist2.jpg');
+    this.projects[0].addImageUrl('../assets/todolist3.jpg');
 
     // Order Flow - Restaurant Ordering System Skills
     this.projects[1].addSkill(new Skill('TypeScript', 1));
