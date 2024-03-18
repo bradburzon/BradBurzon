@@ -17,7 +17,7 @@ body, h1, a, button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 96vh;
+  min-height: 85vh;
   width: 80%;
   max-width: 600px;
 }
@@ -59,7 +59,7 @@ p {
 
 
 .social-icons a, .social-icons button {
-  font-size: 2rem;
+  font-size: 3rem;
   transition: color 0.3s ease, transform 0.3s ease;
   animation: fadeIn 2s ease 0s 1 normal forwards; /* Start appearing after 6s */
 }
@@ -70,7 +70,6 @@ p {
 
 .btn-see-resume {
   padding: 0px 10px;
-  font-size: 1rem;
   color: white;
   border: 2px solid #007bff;
   background-color: #007bff;

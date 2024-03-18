@@ -1,9 +1,9 @@
 .navbar {
-    
+    height: 90px;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: #ffffff;
+    background-color: #dddddd;
   }
 
   .active-link{ 
