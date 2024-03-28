@@ -3,6 +3,7 @@ import { SkillComponent } from './skill/skill.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
 
 export const routes: Routes = [
   {
@@ -25,6 +26,12 @@ export const routes: Routes = [
     path: 'projects',
     title: 'Brad Burzon - Projects',
     children: [{ path: '', component: ProjectsComponent }],
+  },
+
+  {
+    path: 'about',
+    title: 'Brad Burzon - About',
+    component: AboutComponent,
   },
   { path: '**', title: 'Brad Burzon - 404', component: NotfoundComponent },
   { path: '**/', title: 'Brad Burzon - 404', component: NotfoundComponent },

@@ -1,0 +1,38 @@
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-picture {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 1rem;
+  }
+  
+  .headline {
+    font-size: 1.25rem; /* Example size, adjust as needed */
+    color: #666; /* A soft color for the headline text */
+  }
+  
+  @media (max-width: 768px) {
+    .headline {
+      font-size: 1rem; /* Smaller font size for smaller devices */
+    }
+  }
+
+  .fa-github, .fa-linkedin {
+    font-size: 2rem;
+  }
+  
+
+  .social-media-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .social-media-section a {
+    margin: 0 10px;
+  }
