@@ -1,19 +1,19 @@
 <div class="row">
   <div class="col-12 main-content">
     <div
-      class="projects-section col-12 col-md-8 text-center text-md-start mx-auto "
+      class="projects-section col-12 col-md-8 text-center text-md-start mx-auto"
     >
       <div
         *ngFor="let project of projects; let i = index"
         style="font-size: 1rem; font-weight: bold"
       >
-        <div class="project-container p-3  rounded">
+        <div class="project-container p-3 rounded">
           <h2 class="text-center">{{ project.name }}</h2>
           <div class="d-flex justify-content-between">
-            <h4>{{ project.role }}</h4>
+            <h4 class="d-none d-md-block">{{ project.role }}</h4>
             <h4 style="text-align: right">{{ project.duration }}</h4>
           </div>
-          <ul>
+          <ul class="d-none d-md-block">
             <li *ngFor="let description of project.descriptions">
               {{ description }}
             </li>
