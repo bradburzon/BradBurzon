@@ -4,7 +4,7 @@ import { SplashComponent } from './splash/splash.component';
 @Component({
   selector: 'app-home',
   standalone: true,
-  templateUrl: './home.component.html',
+  template: '<app-splash></app-splash>',
   styleUrl: './home.component.css',
   imports: [
     SplashComponent,
