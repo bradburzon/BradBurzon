@@ -1,8 +1,4 @@
 import { Component } from '@angular/core';
-
-import { NavbarComponent } from '../navbar/navbar.component';
-import { RouterLink } from '@angular/router';
-import { FooterComponent } from '../footer/footer.component';
 import { SkillsComponent } from './skills/skills.component';
 
 @Component({
@@ -12,9 +8,6 @@ import { SkillsComponent } from './skills/skills.component';
   styleUrl: './skill.component.css',
   imports: [
     SkillsComponent,
-    NavbarComponent,
-    RouterLink,
-    FooterComponent,
   ],
 })
 export class SkillComponent {}

@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from '../navbar/navbar.component';
-import { RouterLink } from '@angular/router';
 import { Skill } from '../model/skill.model';
 import { Project } from '../model/project.model';
 
@@ -10,7 +8,7 @@ import { Project } from '../model/project.model';
   standalone: true,
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css'],
-  imports: [CommonModule, NavbarComponent, RouterLink],
+  imports: [CommonModule],
 })
 export class ProjectsComponent {
   projects: Project[] = [];

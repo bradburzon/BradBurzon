@@ -1,11 +1,5 @@
 import { Component } from '@angular/core';
-import { SidebarComponent } from '../sidebar/sidebar.component';
-import { SplashComponent } from '../splash/splash.component';
-import { ProjectsComponent } from '../projects/projects.component';
-import { SkillsComponent } from '../skill/skills/skills.component';
-import { FooterComponent } from '../footer/footer.component';
-import { NavbarComponent } from '../navbar/navbar.component';
-import { RouterLink } from '@angular/router';
+import { SplashComponent } from './splash/splash.component';
 
 @Component({
   selector: 'app-home',
@@ -13,13 +7,7 @@ import { RouterLink } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
   imports: [
-    SidebarComponent,
     SplashComponent,
-    ProjectsComponent,
-    SkillsComponent,
-    RouterLink,
-    FooterComponent,
-    NavbarComponent,
   ],
 })
 export class HomeComponent {}
