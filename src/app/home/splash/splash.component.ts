@@ -1,16 +1,21 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-splash',
-    standalone: true,
-    templateUrl: './splash.component.html',
-    styleUrls: ['./splash.component.css'],
-    imports: []
+  selector: 'app-splash',
+  standalone: true,
+  templateUrl: './splash.component.html',
+  styleUrls: ['./splash.component.css'],
+  imports: [],
 })
-export class SplashComponent {
+export class SplashComponent implements OnInit {
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.started = true;
+    }, 5000);
+  }
   name: string = 'Brad Burzon';
   isDeleting: boolean = true;
-  started: boolean = true;
+  started: boolean = false;
   interval: any;
 
   @HostListener('document:click', ['$event'])
