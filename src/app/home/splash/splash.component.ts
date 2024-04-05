@@ -8,23 +8,17 @@ import { Component, HostListener, OnInit } from '@angular/core';
   imports: [],
 })
 export class SplashComponent implements OnInit {
-  ngOnInit(): void {
-    setTimeout(() => {
-      this.started = true;
-    }, 5000);
-  }
+  ngOnInit(): void {}
   name: string = 'Brad Burzon';
   isDeleting: boolean = true;
   started: boolean = false;
   interval: any;
 
-  @HostListener('document:click', ['$event'])
+  @HostListener('mouseover', ['$event'])
   handleClick(event: MouseEvent) {
-    this.started = !this.started;
     if (!this.started) {
+      this.started = true;
       this.startAnimation();
-    } else {
-      this.stopAnimation();
     }
   }
 
@@ -33,16 +27,11 @@ export class SplashComponent implements OnInit {
     this.animateText();
   }
 
-  stopAnimation() {
-    clearInterval(this.interval);
-    this.name = 'Brad Burzon'; // Clear the text
-  }
-
   animateText() {
     const fullName = 'Brad Burzon';
     let index = 0;
-    const typingSpeed = 200; // Slower typing speed for typing
-    const deletingSpeed = 100; // Faster deleting speed for deleting
+    const typingSpeed = 300;
+    const deletingSpeed = 100;
 
     const type = () => {
       if (!this.isDeleting && index < fullName.length) {

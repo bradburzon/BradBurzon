@@ -1,12 +1,12 @@
-<div class="centered-container">
+<div class="centered-container" #myDiv (onmouseover)="startAnimation()">
   <div
     class="col splash-screen d-flex flex-column align-items-start justify-content-center"
   >
-    <div #myDiv (click)="startAnimation()"></div>
+    <div></div>
     <div class="w-100 text-start">
       <div class="d-flex align-items-center">
-        <h1 class="mb-0">{{ name }}</h1>
-        <h2 class="mb-0" [hidden]="!started">|</h2>
+        <h1 class="mb-0" [innerText]="name"></h1>
+        <h2 class="mb-0">|</h2>
       </div>
     </div>
     <div class="text-start mt-2">
