@@ -9,8 +9,6 @@ I'm a passionate **Software Engineer** with experience in **Java, Web, and Andro
 - 🌱 Currently learning: **Angular, UI Testing, Open Source**
 - 🔭 Working on: **2DoList - Task Automation, TrackOrderFlow - Ordering System**
 - 🌍 Languages: **Java, JavaScript, TypeScript, Python, C, SQL, Kotlin**
-- 📫 How to reach me: Connect with me at **linkedin.com/in/brad-burzon**
-- ⚡ Fun fact: **[a fun fact about yourself]**
 
 ## My Skills 🧠
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
