@@ -34,7 +34,7 @@ I'm a passionate **Software Engineer** with experience in **Java, Web, and Andro
 
 ## Get in Touch 📬
 
-- **[Personal Website / Blog]**(https://bradburzon.com/)
-- **[LinkedIn]**(http://www.linkedin.com/in/brad-burzon)
+- **[Personal Website / Blog](https://bradburzon.com/)**
+- **[LinkedIn](http://www.linkedin.com/in/brad-burzon)**
 
 
