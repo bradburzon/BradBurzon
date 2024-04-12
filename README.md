@@ -1,5 +1,5 @@
 # Hi there, I'm Brad! 👋
-
+![](https://komarev.com/ghpvc/?username=bradburzon)
 ![Banner Image](src/assets/intro-img.png)
 
 ## About Me 🚀
@@ -36,5 +36,13 @@ I'm a passionate **Software Engineer** with experience in **Java, Web, and Andro
 
 - **[Personal Website / Blog](https://bradburzon.com/)**
 - **[LinkedIn](http://www.linkedin.com/in/brad-burzon)**
+
+## Acknowledgements (THANK YOU!)
+
+-  Brandon Burzon **[brburzon](https://github.com/brburzon)**  - Software Engineer Mentorship
+-  Anton Komarev **[antonkomarev](https://github.com/antonkomarev)** - GitHub Profile View Counter
+-  Kedasha Kerr **[LadyKerr](https://github.com/LadyKerr)** - GitHub Profile Template
+
+
 
 
