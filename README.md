@@ -1,5 +1,5 @@
 # Hi there, I'm Brad! 👋
-
+![](https://komarev.com/ghpvc/?username=bradburzon)
 ![Banner Image](src/assets/intro-img.png)
 
 ## About Me 🚀
@@ -9,8 +9,6 @@ I'm a passionate **Software Engineer** with experience in **Java, Web, and Andro
 - 🌱 Currently learning: **Angular, UI Testing, Open Source**
 - 🔭 Working on: **2DoList - Task Automation, TrackOrderFlow - Ordering System**
 - 🌍 Languages: **Java, JavaScript, TypeScript, Python, C, SQL, Kotlin**
-- 📫 How to reach me: Connect with me at **linkedin.com/in/brad-burzon**
-- ⚡ Fun fact: **[a fun fact about yourself]**
 
 ## My Skills 🧠
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -36,7 +34,15 @@ I'm a passionate **Software Engineer** with experience in **Java, Web, and Andro
 
 ## Get in Touch 📬
 
-- **[Personal Website / Blog]**(https://bradburzon.com/)
-- **[LinkedIn]**(http://www.linkedin.com/in/brad-burzon)
+- **[Personal Website / Blog](https://bradburzon.com/)**
+- **[LinkedIn](http://www.linkedin.com/in/brad-burzon)**
+
+## Acknowledgements (THANK YOU!)
+
+-  Brandon Burzon **[brburzon](https://github.com/brburzon)**  - Software Engineer Mentorship
+-  Anton Komarev **[antonkomarev](https://github.com/antonkomarev)** - GitHub Profile View Counter
+-  Kedasha Kerr **[LadyKerr](https://github.com/LadyKerr)** - GitHub Profile Template
+
+
 
 
