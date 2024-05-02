@@ -20,36 +20,16 @@ export class ProjectsComponent {
   private initProjects(): void {
     const projectDefinitions = [
       {
-        id: '2dolist',
-        title: '2DoList',
-        descriptions: [
-          'Improving code maintainability by 30%, significantly simplifying updates and enhancing scalability, through the application of best practices such as DRY, functional state commits, KISS, and SOLID principles.',
-          'Accelerating project completion by 15%, enabling faster releases and more efficient feedback integration ,through the optimization of the development workflow, utilizing version control with GitHub and refining processes in Android Studio and IntelliJ.',
-          'Developing an Android application for daily task automation, which enhanced user engagement and satisfaction by creating a more intuitive user experience, utilizing Java, Android Studio, XML, Gradle, and Material Design principles.',
-        ],
-        role: 'Android Developer',
-        period: 'Feb 2024 - Present',
-        skills: [
-          'Java',
-          'XML',
-          'Android Studio',
-          'Gradle',
-          'IntelliJ',
-          'GitHub',
-        ],
-        images: ['todolist1.jpg', 'todolist2.jpg', 'todolist3.jpg'],
-      },
-      {
         id: 'orderflow',
         title: 'Order Flow',
         descriptions: [
           'Successfully reduced operational costs by deploying a cost-effective ordering web app, leveraging Angular, TypeScript, HTML, CSS, and Bootstrap for the frontend, with Firebase serving as the backend.',
           "Enhanced site reliability and accuracy, achieving 99.999% uptime and a 99.98% accuracy rate in processing orders over the span of 5 months, by implementing CI/CD pipelines with GitHub Actions and leveraging Firebase's active listener architecture.",
           'Streamlined development process that transitioned potential shippable product to a fully realized solution by actively engaging with the restaurant manager across all stages of the Software Development Life Cycle (SDLC).',
-          'Boosted order handling efficiency by 30% which enhanced communication between servers and cooks through collaboration with management and staff members of the restaurant for feedback.',
+          'Boosted order handling efficiency by 80% which enhanced communication between servers and cooks through collaboration with management and staff members of the restaurant for feedback.',
         ],
         role: 'Full-Stack Developer',
-        period: 'Oct 2023 - Feb 2024',
+        period: 'Oct 2023 - Present',
         skills: [
           'TypeScript',
           'Angular',
@@ -65,6 +45,26 @@ export class ProjectsComponent {
           'Orderflow4.png',
           'OrderFlow5.png',
         ],
+      },
+      {
+        id: '2dolist',
+        title: '2DoList',
+        descriptions: [
+          'Improved code maintainability by 30%, significantly simplifying updates and enhancing scalability, through the application of best practices such as DRY, functional state commits, KISS, and SOLID principles.',
+          'Accelered project completion by 15%, enabling faster releases and more efficient feedback integration ,through the optimization of the development workflow, utilizing version control with GitHub and refining processes in Android Studio and IntelliJ.',
+          'Developed an Android application for daily task automation, which enhanced user engagement and satisfaction by creating a more intuitive user experience, utilizing Java, Android Studio, XML, Gradle, and Material Design principles.',
+        ],
+        role: 'Android Developer',
+        period: 'Feb 2024 - April 2024',
+        skills: [
+          'Java',
+          'XML',
+          'Android Studio',
+          'Gradle',
+          'IntelliJ',
+          'GitHub',
+        ],
+        images: ['todolist1.jpg', 'todolist2.jpg', 'todolist3.jpg'],
       },
       {
         id: 'cerebro',
