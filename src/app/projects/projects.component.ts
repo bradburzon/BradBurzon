@@ -29,7 +29,7 @@ export class ProjectsComponent {
           'Boosted order handling efficiency by 80% which enhanced communication between servers and cooks through collaboration with management and staff members of the restaurant for feedback.',
         ],
         role: 'Full-Stack Developer',
-        period: 'Oct 2023 - Present',
+        period: 'Oct 2023 - May 2024',
         skills: [
           'TypeScript',
           'Angular',
