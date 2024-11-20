@@ -1,9 +1,15 @@
 /* General Styles */
-body, h1, p {
+body,
+h1,
+p {
   font-family: 'Roboto', sans-serif;
-  color: #333; /* Dark grey for text for better readability */
+  color: #e5e0e0;
+  /* Dark grey for text for better readability */
+  background-color: #000000;
+  margin: 0;
 }
 
 .container-fluid {
-  background-color: #FFF; /* White background */
+  background-color: #000000;
+  /* White background */
 }

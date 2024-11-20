@@ -1,58 +1,66 @@
 .navbar {
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: #dddddd;
-  }
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #000000;
 
-  .active-link{ 
-   color: #007bff;;
 }
-  
-  .navbar-brand {
-    display: flex;
-    align-items: center;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .nav-icon {
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  .nav-links,
-  .social-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links a,
-  .social-links a {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover,
-  .social-links a:hover {
-    color: #007bff;
-  }
-  
-  .social-links {
-    display: flex;
-    align-items: center;
-  }
-  
-  .fa-github, .fa-linkedin {
-    font-size: 2rem;
-  }
-  
-  /* Style for the active link */
+
+.active-link {
+  color: #007bff;
+  ;
+}
+
+.txt-col {
+  color: #212529;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-icon {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-links,
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a,
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.social-links a:hover {
+  color: #212529;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.fa-github,
+.fa-linkedin {
+  font-size: 2rem;
+}
+
+/* Style for the active link */
 .active-link {
   font-weight: bold;
-  color: #007bff; /* Adjust the color to match your theme */
+  color: #007bff;
+  /* Adjust the color to match your theme */
 }
 
 /* Custom dropdown menu styles */
@@ -66,10 +74,10 @@
   text-align: center;
 }
 
-.navbar .dropdown-item:hover, .navbar .dropdown-item:focus {
-  background-color: #419af3;
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background-color: white;
   padding: 5px 0px;
-  text-align: center; /* Light grey background on hover/focus */
+  text-align: center;
+  /* Light grey background on hover/focus */
 }
-
-  

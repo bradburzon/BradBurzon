@@ -9,10 +9,11 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 export class SplashComponent implements OnInit {
   ngOnInit(): void {}
-  name: string = 'Brad Burzon';
+  name: string = 'Brad Mike Burzon';
   isDeleting: boolean = true;
   started: boolean = false;
   interval: any;
+  showParagraphs: boolean = false; // New property to control visibility
 
   @HostListener('mouseover', ['$event'])
   handleClick(event: MouseEvent) {
@@ -20,6 +21,7 @@ export class SplashComponent implements OnInit {
       this.started = true;
       this.startAnimation();
     }
+    this.showParagraphs = true; // Show paragraphs on mouse enter
   }
 
   startAnimation() {
@@ -28,7 +30,7 @@ export class SplashComponent implements OnInit {
   }
 
   animateText() {
-    const fullName = 'Brad Burzon';
+    const fullName = 'Brad Mike Burzon';
     let index = 0;
     const typingSpeed = 300;
     const deletingSpeed = 100;

@@ -1,130 +1,67 @@
-<div class="row">
+<div class="row text-white">
   <div class="col-12 main-content">
-    <div
-      class="projects-section col-12 col-md-8 text-center text-md-start mx-auto"
-    >
-      <div
-        *ngFor="let project of projects; let i = index"
-        style="font-size: 1rem; font-weight: bold"
-      >
+    <div class="projects-section col-12 col-md-8 text-center text-md-start mx-auto">
+      <div *ngFor="let project of projects; let i = index" style="font-size: 1rem; font-weight: bold">
         <div class="project-container p-3 rounded">
           <h2 class="text-center">{{ project.name }}</h2>
           <div class="d-flex justify-content-between">
             <h4 class="d-none d-md-block">{{ project.role }}</h4>
             <h4 style="text-align: right">{{ project.duration }}</h4>
           </div>
+          <div class="skills-container d-flex flex-wrap justify-content-start">
+            <div *ngFor="let skill of project.skills" class="skill m-2 p-1 border animate-on-hover" style="
+                          
+                          color: rgb(255, 255, 255);
+                          font-size: 1.3rem;
+                          font-weight: bold;
+                        ">
+              {{ skill.name }}
+            </div>
+          </div>
           <ul class="d-none d-md-block">
             <li *ngFor="let description of project.descriptions">
               {{ description }}
             </li>
           </ul>
-          <div class="skills-container d-flex flex-wrap justify-content-start">
-            <div
-              *ngFor="let skill of project.skills"
-              class="skill m-2 p-2 border rounded animate-on-hover"
-              style="
-                background-color: #000000;
-                color: rgb(255, 255, 255);
-                font-size: 1.5rem;
-                font-weight: bold;
-              "
-            >
-              {{ skill.name }}
-            </div>
-          </div>
+
           <br />
-          <div
-            id="carouselExampleIndicators{{ i }}"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
+          <div id="carouselExampleIndicators{{ i }}" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button
-                *ngFor="let imageUrl of project.imageUrl; let j = index"
-                type="button"
-                [attr.data-bs-target]="'#carouselExampleIndicators' + i"
-                [attr.data-bs-slide-to]="j"
-                [class.active]="j == 0"
-                aria-current="true"
-                aria-label="'Slide ' + (j + 1)"
-              ></button>
+              <button *ngFor="let imageUrl of project.imageUrl; let j = index" type="button"
+                [attr.data-bs-target]="'#carouselExampleIndicators' + i" [attr.data-bs-slide-to]="j"
+                [class.active]="j == 0" aria-current="true" aria-label="'Slide ' + (j + 1)"></button>
             </div>
             <div class="carousel-inner">
-              <div
-                *ngFor="let imageUrl of project.imageUrl; let k = index"
-                class="carousel-item"
-                [class.active]="k == 0"
-              >
-                <img
-                  [src]="imageUrl"
-                  class="d-block img-fluid mx-auto"
-                  alt="Project image"
-                  data-bs-toggle="modal"
-                  [attr.data-bs-target]="'#modal' + i + '-' + k"
-                  style="height: 500px"
-                />
+              <div *ngFor="let imageUrl of project.imageUrl; let k = index" class="carousel-item"
+                [class.active]="k == 0">
+                <img [src]="imageUrl" class="d-block img-fluid mx-auto" alt="Project image" data-bs-toggle="modal"
+                  [attr.data-bs-target]="'#modal' + i + '-' + k" style="height: 500px" />
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              [attr.data-bs-target]="'#carouselExampleIndicators' + i"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden" style="color: #000000"
-                >Previous</span
-              >
+            <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#carouselExampleIndicators' + i"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden" style="color: #000000">Previous</span>
             </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              [attr.data-bs-target]="'#carouselExampleIndicators' + i"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-                style="color: #000000"
-              ></span>
-              <span
-                class="visually-hidden"
-                style="color: #000000; background-color: black"
-                >Next</span
-              >
+            <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#carouselExampleIndicators' + i"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true" style="color: #000000"></span>
+              <span class="visually-hidden" style="color: #000000; background-color: black">Next</span>
             </button>
           </div>
           <!-- Modal for each image -->
-          <div
-            *ngFor="let imageUrl of project.imageUrl; let k = index"
-            class="modal fade"
-            id="modal{{ i }}-{{ k }}"
-            tabindex="-1"
-            aria-labelledby="carouselModalLabel"
-            aria-hidden="true"
-          >
+          <div *ngFor="let imageUrl of project.imageUrl; let k = index" class="modal fade" id="modal{{ i }}-{{ k }}"
+            tabindex="-1" aria-labelledby="carouselModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="carouselModalLabel">
                     Image {{ k + 1 }}
                   </h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <img
-                    [src]="imageUrl"
-                    class="img-fluid"
-                    alt="Enlarged project image"
-                  />
+                  <img [src]="imageUrl" class="img-fluid" alt="Enlarged project image" />
                 </div>
               </div>
             </div>

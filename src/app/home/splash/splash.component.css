@@ -1,8 +1,12 @@
-body, h1, a, button {
+body,
+h1,
+a,
+button {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 .centered-container {
@@ -10,28 +14,38 @@ body, h1, a, button {
   justify-content: center;
   align-items: center;
   text-align: left;
+  background-color: #212529;
 }
 
 .splash-screen {
   display: flex;
+  background-color: #212529;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 85vh;
   width: 80%;
-  max-width: 600px;
+  margin: auto;
+  max-width: 800px;
 }
 
-h1, p, .social-icons a, .social-icons button {
-  opacity: 0; /* Start elements as invisible */
+h1,
+p,
+.social-icons a,
+.social-icons button {
+  opacity: 0;
+  /* Start elements as invisible */
 }
+
 .text_container {
   display: flex;
-/* This will place one item on the left and the other on the right */
-  align-items: center; /* This will vertically center them if they have different heights */
+  /* This will place one item on the left and the other on the right */
+  align-items: center;
+  /* This will vertically center them if they have different heights */
 }
 
-h1, h2 {
+h1,
+h2 {
   /* Your existing styles */
   margin-bottom: 0.5rem;
   animation: fadeIn 2s ease-in-out 0s infinite;
@@ -46,56 +60,72 @@ h1 {
 h2 {
   font-size: 2.5rem;
   text-align: left;
-  animation: fadeIn 1s  infinite;
+  animation: fadeIn 1s infinite;
 }
 
 p {
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
-  animation: fadeIn 4s ease 2s 1 normal forwards; /* Start after 2s, complete over the next 4s */
+  /* animation: fadeIn 4s ease 2s 1 normal forwards; */
+  /* Start after 2s, complete over the next 4s */
 }
 
 
 
-.social-icons a, .social-icons button {
+.social-icons a,
+.social-icons button {
   font-size: 3rem;
   transition: color 0.3s ease, transform 0.3s ease;
-  animation: fadeIn 2s ease 0s 1 normal forwards; /* Start appearing after 6s */
+  animation: fadeIn 2s ease 0s 1 normal forwards;
+  /* Start appearing after 6s */
 }
 
-.social-icons a:hover, .social-icons button:hover {
+.social-icons a:hover,
+.social-icons button:hover {
   transform: translateY(-5px);
 }
 
 .btn-see-resume {
   padding: 0px 10px;
-  color: white;
-  border: 2px solid #007bff;
-  background-color: #007bff;
+  color: #212529;
+  border: 2px solid #FFFFFF;
+  background-color: #FFFFFF;
   transition: background-color 0.3s ease, color 0.3s ease;
   /* No additional delay needed, as it's part of social-icons */
 }
 
-.btn-see-resume:hover {
-background-color: #0665ca;
-
-}
-
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeInOut {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
 }
 
+.hidden {
+  opacity: 0;
+  transition: opacity 4s ease-in-out;
+}
+
+p {
+  opacity: 1;
+  transition: opacity 4s ease-in-out;
+}
 
 
 .cursor {
@@ -104,9 +134,12 @@ background-color: #0665ca;
 }
 
 @keyframes blink {
-  from, to {
+
+  from,
+  to {
     border-color: transparent;
   }
+
   50% {
     border-color: black;
   }
