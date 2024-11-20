@@ -4,10 +4,9 @@
 
 ## About Me 🚀
 
-I'm a passionate **Software Engineer** with experience in **Java, Web, and Android Development**. I love tackling complex problems, learning new skills, and collaborating with diverse teams to create innovative solutions.
+I'm a passionate **Software Engineer** with experience in **Web and Android Development**. I love tackling complex problems, learning new skills, and collaborating with diverse teams to create innovative solutions.
 
-- 🌱 Currently learning: **Angular, UI Testing, Open Source**
-- 🔭 Working on: **2DoList - Task Automation, TrackOrderFlow - Ordering System**
+- 🌱 Currently learning: **Go, Python, Kotlin**
 - 🌍 Languages: **Java, JavaScript, TypeScript, Python, C, SQL, Kotlin**
 
 ## My Skills 🧠
