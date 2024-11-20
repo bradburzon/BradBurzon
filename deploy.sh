@@ -9,3 +9,5 @@ echo 'bradburzon.com' > dist/brad-burzon/browser/CNAME
 
 # Step 4: Use angular-cli-ghpages to deploy, specifying the correct directory
 ngh --dir=dist/brad-burzon/browser
+
+npx angular-cli-ghpages --dir=dist/brad-burzon/browser/
