@@ -1,6 +1,6 @@
 body,
 h1,
-a,
+a, 
 button {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -72,9 +72,8 @@ p {
 }
 
 
-
 .social-icons a,
-.social-icons button {
+.social-icons i, button {
   font-size: 3rem;
   transition: color 0.3s ease, transform 0.3s ease;
   animation: fadeIn 2s ease 0s 1 normal forwards;
@@ -87,12 +86,30 @@ p {
 }
 
 .btn-see-resume {
-  padding: 0px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 45px; 
+  min-width: 50px;
+  padding:  12px 2px;
+  border-radius: 4px;
+
+  font-size: 0.7rem;        
+  font-weight: 1000;
+  text-transform: lowercase;
+  
+  background-color: #FFFFFF;
   color: #212529;
   border: 2px solid #FFFFFF;
-  background-color: #FFFFFF;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  /* No additional delay needed, as it's part of social-icons */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+
+  transition: all 0.2s ease;
+  line-height: 1;
+}
+
+.easein-p{
+  animation: fadeIn 2s ease-in-out 0s forwards;
 }
 
 @keyframes fadeIn {

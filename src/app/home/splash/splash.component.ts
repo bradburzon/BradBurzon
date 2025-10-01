@@ -10,7 +10,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 export class SplashComponent implements OnInit {
   ngOnInit(): void {}
   name: string = 'Brad Mike Burzon';
-  isDeleting: boolean = true;
+  IsNotDeleting: boolean = true;
   started: boolean = false;
   interval: any;
   showParagraphs: boolean = false; // New property to control visibility
@@ -32,24 +32,24 @@ export class SplashComponent implements OnInit {
   animateText() {
     const fullName = 'Brad Mike Burzon';
     let index = 0;
-    const typingSpeed = 300;
+    const typingSpeed = 500
     const deletingSpeed = 100;
 
     const type = () => {
-      if (!this.isDeleting && index < fullName.length) {
+      if (!this.IsNotDeleting && index < fullName.length) {
         this.name += fullName[index++];
         if (index === fullName.length) {
-          this.isDeleting = true;
-          setTimeout(type, 2000); // Wait before start deleting
+          this.IsNotDeleting = true;
+          setTimeout(type, 3000); // Wait before start deleting
         } else {
           this.interval = setTimeout(type, typingSpeed);
         }
-      } else if (this.isDeleting) {
+      } else if (this.IsNotDeleting) {
         if (this.name.length > 0) {
           this.name = this.name.slice(0, -1);
           this.interval = setTimeout(type, deletingSpeed);
         } else {
-          this.isDeleting = false;
+          this.IsNotDeleting = false;
           index = 0;
           this.startAnimation(); // Restart animation
         }
